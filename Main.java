@@ -2,7 +2,7 @@
 
 -------------------------------------------------
 Main.java
--Oliver Truste 19
+-Oliver De Leon 19270
 -Diego Alvarez 19498
 
 Fecha de creacion: 19/01/2020
