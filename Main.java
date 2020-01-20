@@ -16,7 +16,7 @@ public class Main{
 	public static void main (String[] args){
 		Scanner input = new Scanner(System.in);
 		Radio radio = new Radio();
-
+		System.out.println("Bienvenido!");
 
 	}
 }
