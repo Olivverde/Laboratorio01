@@ -9,7 +9,7 @@
  * @version 22/01/2020
  ************************************************************/
 
-package lab01;
+package radio;
 
 import java.util.*;
 

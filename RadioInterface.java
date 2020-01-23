@@ -8,7 +8,7 @@
  * @author Diego Alvarez 19498
  * @version 22/01/2020
  ************************************************************/
-package lab01;
+package radio;
 
 public interface RadioInterface {
 	
