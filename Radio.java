@@ -5,7 +5,7 @@
  * Importa paquetes java.util
  * 
  * @author Oliver de Leon 19270
- * @author Diego Alvarez 
+ * @author Diego Alvarez 19498 
  * @version 22/01/2020
  ************************************************************/
 

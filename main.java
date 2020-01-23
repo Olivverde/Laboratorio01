@@ -5,7 +5,7 @@
  * importa paquete java.util
  * 
  * @author Oliver de Leon 19270
- * @author Diego Alvarez 
+ * @author Diego Alvarez 19498
  * @version 22/01/2020
  *************************************************************/
 package lab01;
