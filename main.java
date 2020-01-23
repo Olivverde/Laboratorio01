@@ -69,14 +69,24 @@ public class main {
 					//Guardar emisoras	
 					}else if (B.equalsIgnoreCase("4")) {
 						System.out.println("Ingrese el apartado en el que quiere guardar:");
-						int boton = scan.nextInt();
-						radio.guardar(boton);
+						try{
+							int boton = scan.nextInt();
+							radio.guardar(boton);
+							
+						}catch(Exception e) {
+							System.out.println("Ingrese un valor valido");
+						}
 						
 					//Llamar emisora guardada	
 					}else if (B.equalsIgnoreCase("5")) {
 						System.out.println("Ingrese el apartado en el que quiere guardar:");
-						int boton= scan.nextInt();
-						radio.seleccionarEmisora(boton);
+						try{
+							int boton= scan.nextInt();
+							radio.seleccionarEmisora(boton);
+						
+						}catch(Exception e) {
+							System.out.println("Ingrese un valor valido");
+						}
 					}
 					System.out.println(radio.estacionActual());
 				}
