@@ -8,7 +8,7 @@
  * @author Diego Alvarez 19498
  * @version 22/01/2020
  ************************************************************/
-package radio;
+
 
 public interface RadioInterface {
 	
@@ -25,33 +25,35 @@ public interface RadioInterface {
 	public boolean estado();
 	
 	/**
-	 * pre:
-	 * pos: cambia el estado de la radio. de encendido a apagado y viceversa
+	 * pre: comienza apagado
+	 * pos: cambia el estado de la radio. de apagado a encendido y viceversa
 	 * @return
 	 */
 	public void onOff();
 	
 	/**
-	 * pre:
-	 * pos: 
+	 * pre:Tiene una frecuencia pre-establecida
+	 * pos:Cambia a la otra frecuencia
 	 */
 	public void cambiarFrecuencia();
 	
 	/**
-	 * pre:
-	 * pos:
+	 * pre:Tiene una estacion pre-establecida
+	 * pos:Avanza a otra emisora
 	 */
 	
 	public void avanzar();
 	
 	/**
-	 * 
+	 * pre:sin datos guardados, 12 espacios disponibles
+	 * pos:radios almacenadas
 	 * @param boton
 	 */
 	public void guardar(int boton);
 	
 	/**
-	 * 
+	 * pre:
+	 * pos:coloca emisora guardada
 	 * @param boton
 	 */
 	public void seleccionarEmisora(int boton);
